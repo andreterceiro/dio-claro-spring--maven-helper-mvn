@@ -10,3 +10,5 @@ mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -Darchetyp
 ```
 
 I only got some parameters from the CLI.
+
+After some errors on execute the `mvn` command through Node.js (exec), I tried to save a file with the command and execute this file. After a new error, I prefered only to output the command to be executed. Executing the outputted command worked for me...
